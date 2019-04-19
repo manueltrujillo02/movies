@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movies</title>
+    <!-- this is a link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- this is a link to the css style sheet -->
+    <link rel="stylesheet" href="assets/css/movies.css">
+    <!-- jQuery URL -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="header">
+        <h1 id="api">Movies</h1>
+
+        <!-- this is the sidebar -->
+        <div class="sidebar">
+            <div class="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>About</li>
+                <li><a href=spotify.html>Spotify</a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/manuel-trujillo-43200a178/ target=blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+    <div id="container">
+        <div class="mainContent">
+            <!-- this is where inputs a movie -->
+            <form id="center">
+                <h2>Search by Movie / Tv Show Name<br> <input type="text" id="search" class="form-control">
+                    <button id="btn">search</button></h2>
+            </form>
+            <br>
+            <article>
+                <p id="movieInfo"></p>
+                <div id="walmart"></div>
+            </article>
+
+        </div>
+    </div>
+    <!-- this is where all the API'S go  -->
+
+
+
+
+
+
+</body>
+
+</html>
+<script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+<script src="assets/js/movies.js"></script>
+<script src="assets/js/toggleBtn.js"></script>
